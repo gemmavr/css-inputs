@@ -1,0 +1,109 @@
+/*
+------------------------------------
+Ejercicio 1 - Todos los elementos
+-------------------------------------
+*{
+    background-color:rebeccapurple;
+}
+-------------------------------------
+Ejercicio 2 - Elementos tipo p
+-------------------------------------
+p{
+    background-color:red;
+}
+-------------------------------------
+Ejercicio 3 - #Elementos title-1
+-------------------------------------
+#title-1{
+    background-color:yellow;    
+}
+-------------------------------------
+Ejercicio 4 - [Pertenecen a clase "x"]
+-------------------------------------
+[class|="bg-yellow"]{
+    background-color:aquamarine;
+}
+-------------------------------------
+Ejercicio 5 - [Tienen atributo (id)]
+-------------------------------------
+[id]{
+    background-color:orange;
+}
+-------------------------------------
+Ejercicio 6 - [atributo "id" ="valor"]
+-------------------------------------
+[id="title-1"]{
+    background-color:chartreuse;
+}
+-------------------------------------
+Ejercicio 7 - [href="url"]
+-------------------------------------
+[href="https://www.yahoo.com"]{
+    background-color:gray;
+}
+-------------------------------------
+Ejercicio 8 - [class started with = "title"]
+-------------------------------------
+[class^=title]{
+    background-color:pink;
+}
+-------------------------------------
+Ejercicio 9 - [href ended= with .com]
+-------------------------------------
+[href$=".com"]{
+    background-color:silver;
+}
+-------------------------------------
+Ejercicio 10 - [Class"|"(contains)] title] 
+-------------------------------------
+[class|=title]{
+    background-color:rebeccapurple;
+}
+------------------------------------
+Ejercicio 11 - [href "*" (contains any)  = x]
+-------------------------------------
+
+[href*="127"]{
+    background-color:pink;
+}
+
+-------------------------------------
+Ejercicio 12 - [href "^" (starts)= "x"]
+-------------------------------------
+[href^="http"]{
+    background-color:brown;
+}
+
+-------------------------------------
+Ejercicio 13- is "a,b,c"
+-------------------------------------
+a,p,hi{
+    background-color:chartreuse;
+}
+-------------------------------------
+Ejercicio 14 - belongs to "main" and are "p"
+-------------------------------------
+main p {
+    background-color:pink;
+}
+-------------------------------------
+Ejercicio 15 - elemnt "+" sibling of h1 followed
+-------------------------------------
+h1 + * {
+    background-color:violet;
+}
+-------------------------------------
+Ejercicio 16 - All siblings "~"  of h1
+-------------------------------------
+h1 ~ *
+{  
+    background-color:rebeccapurple;
+}
+------------------------------------
+Ejercicio 17 - Direct childs of ">" main 
+-------------------------------------
+main > *
+{    
+    background-color:yellow;
+}
+*/
